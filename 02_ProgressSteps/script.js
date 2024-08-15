@@ -29,10 +29,11 @@ const update = () => {
     if (currentActive === 1) {
         prev.disabled = true
     } else if (currentActive === circles.length) {
-        next.desabled = true
+        next.disabled = true
     } else {
         prev.disabled = false
-        next.disabled = false}
+        next.disabled = false
+    }
 }
 
 prev.addEventListener('click', () => {
